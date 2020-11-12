@@ -61,6 +61,8 @@ fichero requirements.txt:
 
     pip install -r requirements.txt
 
+#Prueba
+
 Tras esto tendremos que crearnos nuestra base de datos con postgres:
 
     sudo su - postgres
