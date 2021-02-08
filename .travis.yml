@@ -21,3 +21,4 @@ deploy:
   app: preparacion-egc
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
+ 
