@@ -15,9 +15,9 @@ install:
 script:
 - cd decide
 - cp travis_local_settings.py local_settings.py
-- coverage run --branch --source=. ./manage.py test --keepdb --with-xunit
+- coverage run --branch --source=. ./manage.py test mixnet --keepdb --with-xunit
 deploy:
   provider: heroku
-  app: egc-app-decide
+  app: preparacion-egc
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
