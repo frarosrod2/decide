@@ -21,5 +21,4 @@ deploy:
   app: egc-app-decide
   strategy: git
   api_key: $HEROKU_AUTH_TOKEN
-  on:
-     branch: master
+ 
